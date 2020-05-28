@@ -1,0 +1,28 @@
+[0528/151139.719:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0528/151139.726:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0528/151140.713:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0528/151142.258:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[0528/183002.663:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ff70e600000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.665:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0528/183002.665:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2f740000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.665:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\ntdll.dll
+[0528/183002.665:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2ef90000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\KERNEL32.dll
+[0528/183002.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2c820000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\KERNELBASE.dll
+[0528/183002.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb21780000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\SYSTEM32\version.dll
+[0528/183002.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2e780000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\msvcrt.dll
+[0528/183002.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffaf4e40000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\81.0.4044.138\chrome_elf.dll
+[0528/183002.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2d4d0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\bcryptPrimitives.dll
+[0528/183002.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2e660000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\ADVAPI32.dll
+[0528/183002.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2eed0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\sechost.dll
+[0528/183002.666:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffb2dda0000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.666:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\WINDOWS\System32\RPCRT4.dll
+[0528/183002.667:ERROR:process_memory_win.cc(73)] ReadMemory at 0x7ffab8e50000 of 64 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0528/183002.667:WARNING:pe_image_reader.cc(340)] could not read dos header from C:\Program Files (x86)\Google\Chrome\Application\81.0.4044.138\chrome.dll

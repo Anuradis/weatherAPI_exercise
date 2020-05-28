@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { WeatherService } from './weather.service';
+import { Component, OnInit } from '@angular/core'
+import { WeatherService } from './weather.service'
 
 @Component({
   selector: 'app-root',
@@ -7,25 +7,27 @@ import { WeatherService } from './weather.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'weatherAPI';
+  title: string = 'weatherAPI'
+  locationsArr: Array<string> = ['New York', '10005', 'Tokyo', 'São Paulo', 'Pluto', 'Zielona Gora']
 
-  city;
-  time;
-  weather;
-  locationsArr: Array<string> = ['New York', '10005', 'Tokyo', 'São Paulo', 'Pluto'];
+  constructor(private weatherService: WeatherService) {}
 
-  constructor(private weatherService: WeatherService) {
-    this.weatherService.getWeather('São Paulo').subscribe({
-      next: data => {
-        console.log(data);
-        console.log('Name:', data.location.name);
-        console.log('Temperature:', data.current.temperature );
-        console.log('Time:', data.current.observation_time);
-      }
-    });
+  ngOnInit() {
+    this.logLocations();
   }
 
-    ngOnInit() {
-
+  logLocations(): void {
+    for (const location of this.locationsArr) {
+      this.weatherService.getWeather(location).subscribe({
+        next: data => {
+          console.log(`=============== locationName/postcode: ${location} ===============`)
+          console.log(`Name: ${data.location.name}`)
+          console.log(`Temperature: ${data.current.temperature}`)
+          console.log(`Description: ${data.current.weather_descriptions[0]}`);
+          console.log(`Time: ${data.location.localtime}`)
+          console.log(``)
+        }
+      })
     }
+  }
 }
